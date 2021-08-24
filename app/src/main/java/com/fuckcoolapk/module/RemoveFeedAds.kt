@@ -83,7 +83,7 @@ class RemoveFeedAds {
                         extraRemoveList.any { items ->
                             extraData?.contains(items, ignoreCase = true) ?: false
                         } -> continue@loop
-                        url?.contains("pearGoods", ignoreCase = true) ?: false -> continue@loop
+                        url?.contains("goods", ignoreCase = true) ?: false -> continue@loop
                         else -> newList.add(item)
                     }
                 }
