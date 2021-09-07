@@ -97,6 +97,7 @@ class HookSettings {
                 addView(FuckSwitch.FastBuilder(mContext = settingActivity, mText = "去除启动广告", mKey = "removeStartupAds").build())
                 addView(FuckSwitch.FastBuilder(mContext = settingActivity, mText = "去除信息流广告（Alpha）", mKey = "removeFeedAds").build())
                 addView(FuckSwitch.FastBuilder(mContext = settingActivity, mText = "去除帖子下方广告（Alpha）", mKey = "removeBannerAds").build())
+                addView(FuckSwitch.FastBuilder(mContext = settingActivity, mText = "去除帖子下方「提到的好物」", mKey = "removeFeedGoods").build())
                 addView(FuckSwitch.FastBuilder(mContext = settingActivity, mText = "去除动态审核水印", mKey = "removeAuditWatermark").build())
                 addView(FuckSwitch.FastBuilder(mContext = settingActivity, mText = "去除首页搜索栏热词", mKey = "removeSearchBoxHotWord").build())
                 if (!CoolContext.isXpatch) addView(FuckSwitch.FastBuilder(mContext = settingActivity, mText = "关闭更新提醒", mKey = "disableUpdateDialog").build())

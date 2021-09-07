@@ -218,6 +218,8 @@ class d : IXposedHookLoadPackage {
             RemoveFeedAds().init()
             //去除帖子下方广告
             RemoveBannerAds().init()
+            //去除帖子下方「提到的好物」
+            RemoveFeedGoods().init()
             //去除底部多余按钮
             RemoveBottomNavigation().init()
             //去除搜索栏热词
